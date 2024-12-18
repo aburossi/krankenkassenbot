@@ -80,7 +80,7 @@ model = genai.GenerativeModel(
 # --- 2. Streamlit App Setup ---
 st.set_page_config(page_title="Krankenversicherungbot", layout="centered")
 st.title("Krankenversicherungbot")
-st.write("Dieser Chatbot hilft Ihnen, das den Unterschied zwischen Franchise und Selbstbehalt zu lernen.")
+st.write("Dieser Chatbot hilft Ihnen, den Unterschied zwischen Franchise und Selbstbehalt zu lernen.")
 
 # --- 3. Session State Initialization ---
 if "messages" not in st.session_state:
