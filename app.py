@@ -95,7 +95,7 @@ for msg in st.session_state.messages:
     st.markdown(f"**{msg['sender']}:** {msg['text']}")
 
 # --- 5. User Input and Response Handling ---
-user_input = st.text_input("Ask me anything about PyBricks:", st.session_state.user_input)
+user_input = st.text_input("Lass uns die Kostenbeteiligung der Krankenkasse zusammen lernen:", st.session_state.user_input)
 
 if st.button("Send") and user_input.strip():
     # Append user message to display
